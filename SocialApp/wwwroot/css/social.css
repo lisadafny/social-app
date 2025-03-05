@@ -1,0 +1,32 @@
+﻿﻿html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+form > button.icon-link {
+    padding: 8px 10px;
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    cursor: pointer;
+    border: none; 
+    background: none; 
+    width: 100%; 
+}
+
+    form > button.icon-link > ion-icon {
+        margin-right: 8px;
+    }
+
+@media (min-width: 1280px) {
+    #site__main section {
+        min-width: 580px;
+    }
+}
+    
