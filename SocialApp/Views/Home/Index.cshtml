@@ -10,7 +10,7 @@
                 <h3 class="font-extrabold text-2xl  text-black hidden">Stories</h3>
 
                 <div class="relative" tabindex="-1" uk-slider="auto play: true;finite: true" uk-lightbox="">
-                    <div class="py-5 uk-slider-container">
+                    <div class="pt-2 uk-slider-container">
                         <ul class="uk-slider-items w-[calc(100%+14px)]" uk-scrollspy="target: > li; cls: uk-animation-scale-up; delay: 20;repeat:true">
 
                             <li class="md:pr-3" uk-scrollspy-class="uk-animation-fade">
@@ -156,7 +156,15 @@
 
                 </div>
             </div>
+
         </section>
+        <div class="flex-1">
+            <div class="lg:space-y-4 lg:pb-8 max-lg:grid sm:grid-cols-2 max-lg:gap-6">
+                <div class="box p-4 px-6">
+                    <partial name="Sidebar/_RecommendedFriends"></partial>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
